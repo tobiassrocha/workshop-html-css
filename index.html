@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Programa de Capacitação Compasso - Módulo Front end</title>
+
+		<meta charset="utf-8">
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Tobias Rocha da Rosa">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="assets/css/reveal.css">
+		<link rel="stylesheet" href="assets/css/theme/beige.css" id="theme">
+		<link rel="stylesheet" href="assets/lib/css/zenburn.css">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Programa de Capacitação Compasso</h2>
+					<h3>Módulo front-end - aula 1</h3>
+					<img class="img-index" src="assets/img/01.jpg">
+					<p>
+						<small>Tobias Rocha da Rosa</small>
+					</p>
+				</section>
+				<section>
+					<h2>
+						Olá, eu sou o Tobias 
+						<img class="icon-hello" src="assets/img/02.png">
+					</h2>
+					<ul>
+						<li>Desenvolvedor front-end +- 5 anos</li>
+						<li>Entusiasta do mundo OpenSource</li>
+						<li>Trabalho na compasso há 2 anos e 5 meses</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Tecnologias com as quais já trabalhei</h2>
+					<img src="assets/img/technologies.png">
+				</section>
+				<section>
+					<h2>Como é a rotina de trabaho da equipe de front-end na compasso</h2>
+				</section>
+				<section>
+					<h2>Projetos que já trabalhei na Compasso</h2>
+					<img src="assets/img/work.png">
+				</section>
+				<section>
+					<h1>Apresentações</h1>
+				</section>
+				<section>
+					<h2>Roteiro das aulas</h2>
+					<ul>
+						<li class="fragment">Explanação de conteúdo</li>
+						<li class="fragment">Exercício para fixar os assuntos abordados</li>
+						<li class="fragment">Acompanhamento das atividades através do github</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Primeiros passos com git e github</h2>
+					<ul>
+						<li class="fragment">Configurações iniciais do git	</li>
+						<li class="fragment">Criar um repositório no github chamado capacitacao-compasso-modulo-front-end</li>
+						<li class="fragment">Clonar o repositório para o seu local</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Camadas de desenvolvimento</h2>
+					<p>Existem 3 linguagens básicas que utilizamos para criar websites:</p>
+					<ul>
+						<li class="fragment">
+							HTML: <span class="fragment">é a linguagem que irá exibir a informação.</span>
+						</li>
+						<li class="fragment">
+							CSS: <span class="fragment">é a linguagem que vai deixar essa informação estilizada.</span>
+						</li>
+						<li class="fragment">
+							Javascript: <span class="fragment">é a linguagem que vai fazer a informação receber alguns comportamentos.</span>
+						</li>
+					</ul>
+					<p></p>
+				</section>
+				<section>
+					<h2>HTML</h2>
+					<p>O acrônico HTML significa em inglês: HyperText Markup Language.</p>
+					<p>Se você tiver que guardar alguma coisa sobre o que é HTML, guarde isso: 
+						<strong class="fragment">HTML serve para dar significado e organizar a informação dos websites.</strong>
+					</p>
+				</section>
+				<section>
+					<h2>E como ele faz isso?</h2>
+					<p class="fragment">É simples, através das tags.</p>
+					<p class="fragment">Tags são o conjunto de caracteres que formam um elemento, ou seja, quando nos referenciamos à Tag "p" 
+						estamos falando disso: &lt;p&gt;</p>
+				</section>
+				<section>
+					<h2>Tipos de Tags</h2>
+					<p>Existem 2 tipos de tags:</p>
+					<ul>
+						<li class="fragment">
+							Tags que necessitam de fechamento.
+							<pre><code><p>A tag do elemento de parágrafo necessita de fechamento.</p></code></pre>
+						</li>
+						<li class="fragment">
+							Tags que não necessitam de fechamento.
+							<pre><code>Texto utilizando <br> quebra de linha</code></pre>
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Elementos</h2>
+					<p>Elementos são formados a partir de tags e entre as tags é que está o conteúdo do elemento.</p>
+					<div class="fragment">
+						<p>Exemplo</p>
+						<pre><code data-trim contenteditable>
+							<address>
+								<a href="http://tableless.com.br">Isto é um link</a>
+							</address>
+						</code></pre>
+					</div>
+				</section>
+				<section>
+					<h2>Não confunda Tags com Elementos</h2>
+					<p>As tags servem para marcar onde começam e terminam os elementos.</p>
+					<p>Já os elementos são uma parte conceitual/semântica que têm um começo e fim determinados.</p>
+				</section>
+				<section>
+					<h2>Atributos</h2>
+					<p>Atributos são informações que passamos na tag para que ela se comporte da maneira esperada. Os atributos também possuem 
+						nome e um valor.</p>
+					<ul>
+						<li class="fragment">Atributos globais: <span class="fragment">class, id, style.</span></li>
+						<li class="fragment">Atributos específicos: <span class="fragment">src, draggable, target.</span></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Metatags</h2>
+					<p>Representada pela tag &lt;meta&gt; as metatags são diferenciadas das demais por não possuírem nenhum efeito visual na página, 
+						e sim por serem responsáveis por ações externas, como por exemplo informar à buscadores informações à respeito da página.</p>
+				</section>
+				<section>
+					<h2>Tipos de metatags</h2>
+					<ul>
+						<li class="fragment">Charset:  indica o formato de codificação de caracteres.</li>
+						<li class="fragment">Description: breve descrição da página.</li>
+						<li class="fragment">Author: nome do autor da página.</li>
+						<li class="fragment">Keywords: metatag responsável por fornecer informações relevantes aos motores de busca.</li>
+						<li class="fragment">Viewport: metatag útil para aplicações responsivas.</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Estrutura básica de um documento html</h2>
+					<ul>
+						<li class="fragment">Definição do documento (doctype)</li>
+						<li class="fragment">Cabeçalho (head)</li>
+						<li class="fragment">Corpo (body)</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Exercício prático</h2>
+					<p>Criar uma página HTML contendo as tags header, section, footer, títulos, parágrafos e links.</p>
+					<p>Sugestão de conteúdo: CV online.</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="assets/lib/js/head.min.js"></script>
+		<script src="assets/js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				transition: 'slide', 
+				dependencies: [
+					{ src: 'assets/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'assets/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'assets/plugin/search/search.js', async: true },
+					{ src: 'assets/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'assets/plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
