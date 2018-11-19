@@ -1,0 +1,13 @@
+HTML
+-------------------------------
+http://tableless.github.io/iniciantes/manual/html
+https://www.w3schools.com/html
+
+CSS
+-------------------------------
+http://tableless.github.io/iniciantes/manual/css
+https://woliveiras.com.br/posts/pre-processadores-css/
+http://blog.dankicode.com/pre-processadores-css-o-guia-definitivo/
+http://lesscss.org
+http://lesscss.loopinfinito.com.br
+https://lesstester.com
